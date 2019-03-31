@@ -1,0 +1,8 @@
+// api/build.gradle
+apply plugin: 'java'
+
+dependencies {
+    compile project(':amss-core')
+    compile "org.springframework.boot:spring-boot-starter-web"
+}
+println('build web project')
